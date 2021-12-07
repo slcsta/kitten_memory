@@ -5,3 +5,9 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+sarah = Player.create(name: "Sarah")
+elmo = Player.create(name: "Elmo")
+
+Game.create(time: "01:23", player: sarah)
+Game.create(time: "01:16", player: elmo)
